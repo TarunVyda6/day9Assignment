@@ -10,3 +10,13 @@ then
 else
 	echo "employee is absent"
 fi
+
+
+#constants
+
+wagePerHour=20
+fullDayHour=8
+
+dailyEmployeeWage=$(( $wagePerHour*$fullDayHour ))
+
+echo "daily employee wage is : "$dailyEmployeeWage
