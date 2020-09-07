@@ -55,10 +55,11 @@ done
 function finalResults
 {
 
-echo "total working hours are : "$1
+echo "daily employee wage is  : " $2
+echo "total employee wage is  : " $3
 
 
 }
 
-finalResults $hour
+finalResults $hour $dailyEmployeeWage $totalEmployeeWage
 
