@@ -57,9 +57,9 @@ function finalResults
 
 echo "daily employee wage is  : " $2
 echo "total employee wage is  : " $3
-
+echo "total no of days are : "$4
 
 }
 
-finalResults $hour $dailyEmployeeWage $totalEmployeeWage
+finalResults $hour $dailyEmployeeWage $totalEmployeeWage $day
 
