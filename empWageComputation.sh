@@ -20,3 +20,10 @@ fullDayHour=8
 dailyEmployeeWage=$(( $wagePerHour*$fullDayHour ))
 
 echo "daily employee wage is : "$dailyEmployeeWage
+
+
+partTimeHour=$(( $fullDayHour/2 ))
+
+dailyEmployeeWage=$(( $wagePerHour*$partTimeHour ))
+
+echo "daily employee wage for part time is : "$dailyEmployeeWage
