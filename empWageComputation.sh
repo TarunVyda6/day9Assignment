@@ -1,3 +1,4 @@
 #! /bin/bash
 
-"welcome to emp wage computation"
+#welcome to emp wage computation
+
