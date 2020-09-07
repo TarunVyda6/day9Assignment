@@ -44,11 +44,21 @@ do
 	if(( $hour >= 96 ))
 	then
 		totalEmployeeWage=$(( $totalEmployeeWage+80 ))
+		hour=$(( $hour+4 ))
 	else
 		totalEmployeeWage=$(( $totalEmployeeWage+$dailyEmployeeWage ))
+		hour=$(( $hour+$timeHour ))
 	fi
-	hour=$(( $hour+$timeHour ))
 	day=$(( $day+1 ))
 done
 
-echo "total employee wage is : "$totalEmployeeWage
+function finalResults
+{
+
+echo "total working hours are : "$1
+
+
+}
+
+finalResults $hour
+
